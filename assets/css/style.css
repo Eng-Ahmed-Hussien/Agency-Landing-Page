@@ -20,7 +20,7 @@ a {
   color: #092032;
   text-decoration: none;
   transition: all .4s ease;
-  font-weight: 500
+  font-weight: 600;
 }
 
 a.Copyright {
@@ -91,16 +91,17 @@ section {
 
 .social-links a:hover {
   background-color: #fff;
-  color: #0b94ca
+  color: #0b94ca;
 }
 
 .navbar {
-  box-shadow: 0 6px 30px rgba(0, 0, 0, .1)
+  box-shadow: 0 6px 30px rgba(0, 0, 0, .1);
 }
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-  color: #0b94ca
+  color: #0b94ca;
+  font-weight: 900;
 }
 
 .navbar-brand {
@@ -110,35 +111,35 @@ section {
 }
 
 .navbar-brand span {
-  color: #0b94ca
+  color: #0b94ca;
 }
 
 .btn {
   padding: 9px 24px;
-  font-weight: 500
+  font-weight: 500;
 }
 
 .btn-brand {
   background-color: #0b94ca;
   color: #fff;
-  border-color: #0b94ca
+  border-color: #0b94ca;
 }
 
 .btn-brand:hover {
   color: #fff;
-  background-color: #18c2d8
+  background-color: #18c2d8;
 }
 
 #hero-slider h1 {
-  font-weight: 700 !important
+  font-weight: 700 !important;
 }
 
 .slide1 {
-  background: linear-gradient(rgba(9, 32, 50, .4), rgba(9, 32, 50, .4)), url(../img/bg_banner1.jpg)
+  background: linear-gradient(rgba(9, 32, 50, .4), rgba(9, 32, 50, .4)), url(../img/bg_banner1.jpg);
 }
 
 .slide2 {
-  background: linear-gradient(rgba(9, 32, 50, .4), rgba(9, 32, 50, .4)), url(../img/bg_banner2.jpg)
+  background: linear-gradient(rgba(9, 32, 50, .4), rgba(9, 32, 50, .4)), url(../img/bg_banner2.jpg);
 }
 
 .owl-next,
@@ -154,62 +155,62 @@ section {
   margin-top: -30px !important;
   color: #fff !important;
   font-weight: 700;
-  font-size: 12px
+  font-size: 12px;
 }
 
 .owl-prev {
-  left: 0
+  left: 0;
 }
 
 .owl-next {
-  right: 0
+  right: 0;
 }
 
 .owl-next:hover,
 .owl-prev:hover {
-  background-color: #0b94ca !important
+  background-color: #0b94ca !important;
 }
 
 .info-box {
   display: flex;
-  align-items: center
+  align-items: center;
 }
 
 .info-box img {
   width: 90px;
-  margin-right: 24px
+  margin-right: 24px;
 }
 
 #milestone {
-  background: linear-gradient(#14dbf5c4, #10c8e0ad), url(../img/bg_banner2.jpg)
+  background: linear-gradient(#14dbf5c4, #10c8e0ad), url(../img/bg_banner2.jpg);
 }
 
 #milestone .display-4,
 #milestone p {
-  color: #fff
+  color: #fff;
 }
 
 #milestone .display-4 {
-  font-weight: 700
+  font-weight: 700;
 }
 
 .service-box {
   padding: 32px;
   box-shadow: 0 6px 30px rgba(0, 0, 0, .2);
-  text-align: center
+  text-align: center;
 }
 
 .service-box img {
-  width: unset
+  width: unset;
 }
 
 .service-box h5 {
   margin-top: 24px;
-  margin-bottom: 12px
+  margin-bottom: 12px;
 }
 
 .project {
-  position: relative
+  position: relative;
 }
 
 .project .overlay {
@@ -218,7 +219,7 @@ section {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 240px
+  height: 240px;
 }
 
 .project .content {
@@ -226,18 +227,18 @@ section {
   width: 100%;
   bottom: 0;
   left: 0;
-  padding: 32px
+  padding: 32px;
 }
 
 .project h1,
 .project h6 {
-  color: #fff
+  color: #fff;
 }
 
 .project h6 {
   font-size: 14px;
   text-transform: uppercase;
-  letter-spacing: 1px
+  letter-spacing: 1px;
 }
 
 .project h6::before {
@@ -247,7 +248,7 @@ section {
   background-color: #0b94ca;
   display: inline-block;
   vertical-align: middle;
-  margin-right: 12px
+  margin-right: 12px;
 }
 
 #project-slider .owl-next,
@@ -257,16 +258,16 @@ section {
 
 #project-slider .owl-next:hover,
 #project-slider .owl-prev:hover {
-  background-color: #0b94ca !important
+  background-color: #0b94ca !important;
 }
 
 .team-member {
-  text-align: center
+  text-align: center;
 }
 
 .team-member .img-wrapper {
   position: relative;
-  overflow: hidden
+  overflow: hidden;
 }
 
 .team-member .overlay {
@@ -277,7 +278,7 @@ section {
   height: 100%;
   background-color: #0f9cdda6;
   transition: all .4s ease;
-  opacity: 0
+  opacity: 0;
 }
 
 .team-member .social-links {
@@ -286,54 +287,54 @@ section {
   left: 50%;
   transform: translate(-50%, -50%);
   transition: all .4s ease;
-  opacity: 0
+  opacity: 0;
 }
 
 .team-member:hover .overlay {
   opacity: 1;
-  top: 0
+  top: 0;
 }
 
 .team-member:hover .social-links {
   opacity: 1;
-  top: 50%
+  top: 50%;
 }
 
 .team-member h5 {
-  margin-top: 24px
+  margin-top: 24px;
 }
 
 #reviews {
-  background: linear-gradient(rgba(9, 32, 50, .8), rgba(9, 32, 50, .8)), url(../img/bg_banner1.jpg)
+  background: linear-gradient(rgba(9, 32, 50, .8), rgba(9, 32, 50, .8)), url(../img/bg_banner1.jpg);
 }
 
 .review {
   max-width: 900px;
   margin: auto;
-  text-align: center
+  text-align: center;
 }
 
 .review img {
   width: 85px !important;
   border-radius: 100%;
-  margin: auto
+  margin: auto;
 }
 
 .review h4 {
-  margin-top: 16px
+  margin-top: 16px;
 }
 
 .review h4,
 .review p {
-  color: #fff
+  color: #fff;
 }
 
 .review small {
-  color: #0b94ca
+  color: #0b94ca;
 }
 
 .review p {
-  margin-top: 28px
+  margin-top: 28px;
 }
 
 .owl-dot.active span {
@@ -341,11 +342,11 @@ section {
 }
 
 .blog-post {
-  position: relative
+  position: relative;
 }
 
 .blog-post a {
-  font-weight: 700
+  font-weight: 700;
 }
 
 .blog-post .tag {
@@ -355,22 +356,22 @@ section {
   border-radius: 50px;
   top: 20px;
   left: 20px;
-  position: absolute
+  position: absolute;
 }
 
 .blog-post img {
-  margin-bottom: 12px
+  margin-bottom: 12px;
 }
 
 .blog-post h4 {
   margin-top: 12px;
-  margin-bottom: 12px
+  margin-bottom: 12px;
 }
 
 .blog-post small {
   color: #0b94ca;
   text-decoration: underline;
-  text-transform: uppercase
+  text-transform: uppercase;
 }
 
 footer {
@@ -378,29 +379,29 @@ footer {
   padding-bottom: 20px;
   text-align: center;
   color: #fff;
-  background: linear-gradient(rgba(9, 32, 50, .8), rgba(9, 32, 50, .8)), url(../img/bg_banner1.jpg)
+  background: linear-gradient(rgba(9, 32, 50, .8), rgba(9, 32, 50, .8)), url(../img/bg_banner1.jpg);
 }
 
 footer .navbar-brand {
   color: #fff;
   margin-bottom: 24px;
-  display: inline-block
+  display: inline-block;
 }
 
 .footer-top {
-  margin-bottom: 40px
+  margin-bottom: 40px;
 }
 
 .footer-bottom {
   border-top: 1px solid rgba(255, 255, 255, .24);
-  padding-top: 20px
+  padding-top: 20px;
 }
 
 footer .social-links a {
-  margin: 0 5px
+  margin: 0 5px;
 }
 
 .form-control:focus {
   box-shadow: none;
-  border-color: #0b94ca
+  border-color: #0b94ca;
 }
